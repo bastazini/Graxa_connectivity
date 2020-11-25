@@ -6,7 +6,7 @@ require(scales)
 
 rm(list = ls())
 ###abrindo arquivo
-#Raster de resist6encia de cada bicho
+#Raster de resistência de cada bicho
 mapa=raster(file.choose())
 NAvalue(mapa)<- 0
 plot(mapa)
